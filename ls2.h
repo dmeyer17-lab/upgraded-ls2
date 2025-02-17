@@ -3,15 +3,12 @@
 
 #include "stack.h"
 
-#define TRUE 1
-#define FALSE 0
+#define TRUE 0
+#define FALSE 1
 #define INDENT "    "
 
-// TODO: Any global variables go below
-int thisIsGlobal = 10;  // delete before submission
-
-// TODO: Function declarations go below
-void example(int*); // delete before submission
-
+// Function declarations
+void mode1(const char *path, int indent);
+void mode2(const char *path, const char *emp, int indent, stack_t *stk);
 
 #endif
